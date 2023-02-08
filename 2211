@@ -208,7 +208,7 @@ game:GetService("TeleportService"):Teleport(game.PlaceId)
 end)
 
 AimingSection:NewButton("Camlock(C)", "ButtonInfo", function()
-getgenv().Prediction = 0.129
+getgenv().Prediction = 0.126
 getgenv().AimPart = "HumanoidRootPart"	
 getgenv().Key = "C"	
 getgenv().DisableKey = "P"	
@@ -264,7 +264,7 @@ local fov = Drawing.new("Circle")
 fov.Filled = false	
 fov.Transparency = 1	
 fov.Thickness = 2.1	
-fov.Color = Color3.fromRGB(153, 76, 0)	
+fov.Color = Color3.fromRGB(255, 102, 255)	
 fov.NumSides = 1000	
 	
 --// Functions	
